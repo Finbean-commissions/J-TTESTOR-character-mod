@@ -1,10 +1,10 @@
 <players nameimageroot="gfx/ui/boss/" portraitroot="gfx/ui/stage/" root="gfx/characters/costumes/">
-	<player hp="6" bombs="1" name="One"
-	nameimage="One_nane_image.png" portrait="One_portrait_image.png" skin="One.png" skinColor="-1"
+	<player hp="6" bombs="1" name="JATTESTOR"
+	nameimage="JÄTTESTOR_nane_image.png" portrait="JÄTTESTOR_portrait_image.png" skin="JATTESTOR.png" skinColor="-1"
 	items="" birthright="???"
 	/>
-	<player hp="6" bombs="1" name="Two" bSkinParent="One"
-	nameimage="Two_nane_image.png" portrait="Two_portrait_image.png" skin="Two.png" skinColor="-1"
+	<player hp="6" bombs="1" name="Tainted JATTESTOR" bSkinParent="JATTESTOR"
+	nameimage="Tainted JÄTTESTOR_nane_image.png" portrait="Tainted JÄTTESTOR_portrait_image.png" skin="Tainted JATTESTOR.png" skinColor="-1"
 	items="" birthright="???"
 	/>
 </players>
