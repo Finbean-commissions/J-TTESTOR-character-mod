@@ -83,6 +83,9 @@ function mod:playerSpawn(player)
     end
     if player:GetName() == mod.TAINTED_JATTESTOR_Character.NAME then
         player:AddNullCostume(Isaac.GetCostumeIdByPath("gfx/characters/TAINTED JATTESTOR-head.anm2"))
+		player:AddCollectible(CollectibleType.COLLECTIBLE_POKE_GO)
+		player:AddCollectible(CollectibleType.COLLECTIBLE_BOX_OF_FRIENDS)
+		player:AddCollectible(CollectibleType.COLLECTIBLE_BUDDY_IN_A_BOX)
     end
 end
 mod:AddCallback(ModCallbacks.MC_POST_PLAYER_INIT, mod.playerSpawn)
